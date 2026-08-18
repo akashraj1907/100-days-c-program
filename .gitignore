@@ -1,3 +1,4 @@
 .vscode/
 *.dSYM/
+*.exe
 *.code-workspace
