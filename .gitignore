@@ -1,6 +1,5 @@
 .vscode/
 *.dSYM/
 *.code-workspace
-*
-!*,*
-!*/
+day*
+!day*.c
