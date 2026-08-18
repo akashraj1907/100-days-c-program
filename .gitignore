@@ -1,9 +1,5 @@
 .vscode/
 *.dSYM/
 *.code-workspace
-day1_Q!
-day1_Q2
-day2_Q3
-day2_Q4
-day3_Q5
-day3_Q6
+*
+!*,*
