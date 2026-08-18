@@ -4,7 +4,6 @@
 
 int main() {
     double radius;
-
     scanf("%lf", &radius);
 
     double area = M_PI * pow(radius, 2);
