@@ -3,7 +3,7 @@
 
 int main() {
     int rows, cols;
-
+    
     printf("Enter number of rows and columns: ");
     if (scanf("%d %d", &rows, &cols) != 2) {
         return 0;
