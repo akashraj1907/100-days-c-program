@@ -6,7 +6,7 @@ int main() {
     char filename[] = "info.txt";
     char ch;
     int vowels = 0, consonants = 0;
-
+    
     file = fopen(filename, "r");
     if (file == NULL) {
         printf("Error: Could not open file %s\n", filename);
