@@ -2,7 +2,7 @@
 //(HR, IT, FINANCE, SALES) and print the employee details.
 #include <stdio.h>
 #include <string.h>
-
+#include <stddef.h>
 enum Department {
     HR,
     IT,
