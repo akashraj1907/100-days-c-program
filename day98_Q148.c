@@ -9,7 +9,6 @@ struct Student {
 
 struct Student getTopStudent(const struct Student s[], int n) {
     struct Student top = s[0];
-
     for (int i = 1; i < n; i++) {
         if (s[i].marks > top.marks) {
             top = s[i];
@@ -29,7 +28,6 @@ int main(void) {
     }
 
     struct Student students[n];
-
     for (int i = 0; i < n; i++) {
         printf("Enter details for student %d (Name Roll Marks): ", i + 1);
         if (scanf("%49s %d %d", students[i].name, &students[i].roll, &students[i].marks) != 3) {
@@ -39,8 +37,6 @@ int main(void) {
     }
 
     struct Student topper = getTopStudent(students, n);
-
     printf("\nTop Student: %s | Roll: %d | Marks: %d\n", topper.name, topper.roll, topper.marks);
-
     return 0;
 }
