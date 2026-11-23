@@ -26,7 +26,7 @@ void printPreviousGreater(int arr[], int n) {
 
 int main() {
     int n;
-
+    printf("Enter the number of elements in the array: ");
     if (scanf("%d", &n) != 1 || n <= 0) {
         return 0;
     }
